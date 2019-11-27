@@ -1,0 +1,595 @@
+
+.right_menu{
+	float:left!important;
+	}
+.login-box-body .form-control-feedback, .register-box-body .form-control:focus .form-control-feedback{
+	color:red;
+	}
+.fa-registered{
+	padding-right:5px;
+	font-weight: bold;
+	color: #3C8DBC;
+	}
+.fa-sign-in{
+	padding-right:5px;
+	font-weight: bold;
+	color: #3C8DBC;
+	}
+.recoverscree_div{
+	border: 2px solid #3C8DBC;
+    border-radius: 50%;
+    background-color: #3C8DBC;
+    padding-left: 2px;
+	}
+.recoverscree_btn{
+	background-color: #3C8DBC!important;
+	}
+.custom_icon{
+	color:white;
+	}
+.custom_icon1{
+	padding-left:5px;
+	}
+.custom_icon2{
+	font-size:16px!important;
+	padding-left: 0px!important;
+	}
+.custom_icon3{
+	padding-left: 4px;
+	font-size:16px!important;
+	}
+.custom_icon4{
+	font-size: 5em!important;
+    position: relative;
+    top: 5px;
+	color: #F87501!important;
+	}
+.lockscreen-image{
+	box-shadow: 0px 1px 2px 0px;
+	}
+.lockscreen-image1{
+	border-radius: 50%;
+    position: absolute;
+    left: 20em;
+    bottom: 17em;
+    background: #fff;
+    padding: 5px;
+    z-index: 10;
+    border: 2px solid #F87501;
+	}
+.lockscreen-image1 > img{
+	border-radius: 50%;
+    width: 70px;
+    height: 70px;
+	}
+.lockscreen-image2{
+	border-radius: 50%;
+    position: absolute;
+    left: 20em;
+    bottom: 27em;
+    background: #fff;
+    padding: 5px;
+    z-index: 10;
+	}
+.lockscreen-image2 > img{
+	border-radius: 50%;
+    width: 70px;
+    height: 70px;
+	}
+
+.lockscreen-wrapper{
+	background-color: rgba(255, 255, 255, 0.45);
+	border-radius: 6px;
+	}
+.custom_input{
+	border-radius:5px!important;
+	}
+.custom_label{
+	font-weight:bold!important;
+	}
+
+.lock_btn{
+	float: right;
+    bottom: 34px;
+    right: 28px;
+	}
+.custom_btn{
+	background-color: #F87501!important;
+    border-color: #F87501!important;
+	}
+.custom_btn1{
+	width: 103%;
+    font-weight: bold;
+    font-size: 18px;
+    background-color: #F87501!important;
+    border: 1px solid #F87501!important;
+    color: white!important;
+	}
+.custom_btn1:hover{
+	background:rgba(248, 117, 1, 0.75)!important;
+	}
+.custom_input:focus{
+	border-color: #F87501!important;
+	}
+.login-box-body,
+.register-box-body {
+	box-shadow: 0px 1px 2px 0px;
+}
+.skin-blue .sidebar-menu>li:hover>a>i {
+    color: #ffffff;
+}
+.skin-blue .sidebar-menu>li>.treeview-menu>li:hover>a>i {
+    color: #FFFFFF;
+}
+.sorting {
+    background-color: #2A868F;
+    color: white;
+}
+.sorting_asc {
+    background-color: #2A868F;
+    color: white;
+}
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover{
+	background-color: #2A868F;
+    border-color: #2A868F;
+	}
+.skin-blue .sidebar-menu>li:hover>a, .skin-blue .sidebar-menu>li.active>a{
+	border-bottom: 2px solid black;
+	}
+tfoot{
+	background-color: #2A868F;
+    color: white;
+	}
+.dashboard_row{
+	padding-bottom:2em;
+	}
+.box_1{
+	background-color: #2B6F75;
+    border-radius: 5px;
+    height: 50px;
+    width: auto;
+}
+.box_2{
+	background-color: #27A9E3;
+    border-radius: 5px;
+    height: 50px;
+    width: auto;
+	}
+.box_3{
+	background-color: #852B99;
+    border-radius: 5px;
+    height: 50px;
+    width: auto;
+	}
+.box_4{
+	background-color: #28B779;
+    border-radius: 5px;
+    height: 50px;
+    width: auto;
+	}
+
+.custom_col {
+    padding-bottom: 1em;
+}
+.dash_content {
+    padding: 14px;
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+    padding-left: 25px;
+}
+.custom_dash_icon{
+	position: absolute;
+    background-color: white;
+    left: 4px;
+    color: #2B6F75;
+    border: 2px solid #2B6F75;
+    font-size: 20px!important;
+    top: -10px;
+    border-radius: 50%;
+    padding: 5px;
+	}
+.custom_dash_icon1{
+	position: absolute;
+    background-color: white;
+    left: 4px;
+    color: #27A9E3;
+    border: 2px solid #27A9E3;
+    font-size: 20px!important;
+    top: -10px;
+    border-radius: 50%;
+    padding: 5px;
+	}
+.custom_dash_icon2{
+	position: absolute;
+    background-color: white;
+    left: 4px;
+    color: #852B99;
+    border: 2px solid #852B99;
+    font-size: 20px!important;
+    top: -10px;
+    border-radius: 50%;
+    padding: 5px;
+	}
+.custom_dash_icon3{
+	position: absolute;
+    background-color: white;
+    left: 4px;
+    color: #28B779;
+    border: 2px solid #28B779;
+    font-size: 21px!important;
+    top: -10px;
+    border-radius: 50%;
+    padding: 5px;
+	}
+.admin_btn{
+	background-color: rgb(17, 71, 76)!important;
+    border-color: rgb(17, 71, 76)!important;
+	box-shadow: 0px 5px rgb(15, 48, 51)!important;
+	margin-bottom:0.5em;
+	}
+.admin_icon{
+	font-size: 17px;
+	}
+.admin_btn:hover{
+	background-color: rgb(43, 111, 117)!important;
+    border-color: rgb(43, 111, 117)!important;
+	}
+.admin_btn_icon{
+	float:left;
+	margin-top: 5px;
+	}
+.CompanyForm{
+	padding-top: 2em;
+	padding-right: 12em;
+    padding-left: 0.5em;
+	}
+.form_icon{
+	padding-right:0.5em;
+	}
+.form_btn{
+	float: right;
+    background-color: #2B6F75!important;
+    color: white!important;
+}
+.company_checkbox{
+	float:right;
+	}
+#container {
+	height: 400px; 
+	min-width: 310px; 
+	max-width: 800px;
+	margin: 0 auto;
+}
+.graph_section{
+	padding-bottom:2em;
+	}
+.companyHeading{
+	padding-left: 1em;
+    font-weight: 600;
+    color: #2B6F75;
+    /*text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15);*/
+	}
+.modal-content{
+	border: 2px solid #2B6F75;
+	box-shadow: 0 5px 20px #2B6F75;
+	}
+.modal-title {
+    font-size: 24px;
+    font-weight: 600;
+    color: #2B6F75;
+   /* text-shadow: 4px 0px 8px #2B6F75;*/
+	}
+/*========================Custom Scroll CS =================*/
+::-webkit-scrollbar {
+    width: 3px;
+}
+ 
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    border-radius: 10px;
+}
+ 
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+.table-responsive {
+    overflow-x: auto;
+}
+.btn-sm{
+	border-radius:3px!important;
+	}
+.dropdown-menu{
+	/*border-right: 3px solid #3C8DBC!important;*/
+    border-bottom: 3px solid #2B6F75!important;
+	padding-top: 0.5em!important;
+   /**/
+	}
+.custom_dropdown{
+	background-color: transparent!important;
+	}
+.user-footer{
+	border-left: 3px solid #2B6F75!important;
+	border-right: 3px solid #2B6F75!important;
+	}
+
+.btn-flat:hover{
+	color:white!important;
+	}
+
+.content-header {
+    height: 58px !important;
+}
+.sidebar-form{
+	visibility:hidden;
+	}
+	
+.custom_header_icon{
+	position: absolute;
+    background-color: white;
+    left: -12px;
+    color: #2B6F75;
+    border: 2px solid #2B6F75;
+    font-size: 19px;
+    top: -10px;
+    border-radius: 50%;
+    padding: 5px;
+	}
+.box-title{
+	padding-left: 1em;
+	font-weight:600;
+	}
+
+/*form styles*/
+.NewEmp_boxBody{
+	background-color: #ECF0F5;
+	}
+#msform {
+	width: auto;
+	margin: 50px auto;
+	text-align: center;
+	position: relative;
+}
+#msform fieldset {
+	background: #ECF0F5;
+	border: 0 none;
+	border-radius: 3px;
+	box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);
+	padding: 20px 30px;
+	box-sizing: border-box;
+	width: 80%;
+	margin: 0 10%;
+	/*stacking fieldsets above each other*/
+}
+/*Hide all except first fieldset*/
+#msform fieldset:not(:first-of-type) {
+	display: none;
+}
+/*inputs*/
+#msform input, #msform textarea {
+	border-radius: 3px;
+/*	margin-bottom: 10px;*/
+	width: 100%;
+	box-sizing: border-box;
+	/*font-family: montserrat;*/
+    font-family: 'Open Sans', sans-serif!important;
+	color: #2C3E50;
+	font-size: 13px;
+}
+.DateTimePicker {
+	margin-bottom: 0px;
+}
+
+.Add_check input
+{
+margin-top:15px;
+}
+/*buttons*/
+#msform .action-button {
+	font-family: 'Poppins', sans-serif!important;
+    font-weight: 400;
+    padding: 6px 25px;
+    font-size: 15px;
+    color: white;
+    background-color: #2a868f;
+    border-color: #2a868f;
+    border-radius: 3px;
+    width:20%;
+    float:right;
+    border:none;
+    margin-left: 7px;
+    margin-top: 15px;
+}
+
+.img-circle {
+    text-align: center;
+    border-radius: 50%;
+    Width:150px;
+    height:150px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+    position: inherit; /* Default - relative*/
+    bottom: 20px;
+	background: url(images/Employees/user-image.png) no-repeat;
+
+}
+.upload_btn
+{
+    position: relative;
+    bottom: 21px;
+    left: 25px;
+}
+
+#msform .action-button:hover, #msform .action-button:focus {
+	box-shadow: 0 0 0 2px white, 0 0 0 3px #2B6F75;
+}
+/*headings*/
+.fs-title {
+	font-size: 15px;
+	text-transform: uppercase;
+	color: #2C3E50;
+	margin-bottom: 10px;
+}
+.fs-subtitle {
+	font-weight: normal;
+	font-size: 13px;
+	color: #666;
+	margin-bottom: 20px;
+}
+/*progressbar*/
+#progressbar, #progressbarQualification {
+	margin-bottom: 30px;
+	overflow: hidden;
+	/*CSS counters to number the steps*/
+	counter-reset: step;
+}
+#progressbar li, #progressbarQualification li {
+	list-style-type: none;
+	color: #2B6F75;
+	text-transform: uppercase;
+	font-size: 12px;
+	font-weight: 600;
+	width: 20.0%;
+	float: left;
+	position: relative;
+}
+#progressbar li:before, #progressbarQualification li:before {
+	content: counter(step);
+	counter-increment: step;
+	width: 20px;
+	line-height: 20px;
+	display: block;
+	font-size: 10px;
+	color: #333;
+	background: white;
+	border-radius: 3px;
+	margin: 0 auto 5px auto;
+}
+/*progressbar connectors*/
+#progressbar li:after, #progressbarQualification li:after {
+	content: '';
+	width: 100%;
+	height: 2px;
+	background: white;
+	position: absolute;
+	left: -50%;
+	top: 9px;
+	z-index: -1; /*put it behind the numbers*/
+}
+#progressbar li:first-child:after, #progressbarQualification li:first-child:after {
+	/*connector not needed before the first step*/
+	content: none; 
+}
+/*marking active/completed steps green*/
+/*The number of the step and the connector before it = green*/
+#progressbar li.active:before,  #progressbar li.active:after, #progressbarQualification li.active:before,  #progressbarQualification li.active:after{
+	background: #27AE60;
+	color: white;
+}
+
+
+
+@media (max-width: 991px){
+	.breadcrumb>.active{
+	color:white;
+	}
+	.navbar-custom-menu > .navbar-nav > li > .dropdown-menu{
+	border-left:transparent!important;
+    
+	}
+	}
+.bootstrap-timepicker-widget{
+            /*top: 0px!important;*/
+            /*left: 357.5px!important;*/
+            z-index: 1250!important;
+}
+.bootstrap-timepicker-hour  {
+    padding: 0!important;
+}
+.bootstrap-timepicker-minute {
+    padding: 0!important;
+}
+.bootstrap-timepicker-meridian {
+    padding: 0!important;
+}
+.input-group[class*=col-] {
+    float:left;
+     padding-right: 15px; 
+     padding-left: 15px; 
+}
+
+.CustomLabel label  {
+    padding-right:20px;
+}
+
+.alert-danger {
+    display: block;
+    position: fixed;
+    top: 9em;
+    width: 60%;
+    z-index: 1250;
+    right: 13em;
+    height: 3.5em;
+}
+.alert-success {
+     display: block;
+    position: fixed;
+    top: 9em;
+    width: 60%;
+    z-index: 1250;
+    right: 13em;
+    height: 3.5em;
+}
+
+cutom-col-sm-2 {
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+}
+
+custom-#msform input, #msform textarea {
+
+	border-radius: 3px;
+	width: 100%;
+	box-sizing: border-box;
+	/*font-family: montserrat;*/
+    font-family: 'Open Sans', sans-serif!important;
+	color: #2C3E50;
+	font-size: 13px;
+}
+
+.new_emp_form .form-group
+{
+margin-bottom:15px!important;
+}
+.notification_dropdown {
+    border-color: transparent!important;
+}
+.notification_header {
+    padding: 0px!important;
+}
+.skin-blue .main-header li.notification_header {
+    background-color: #2B6F75!important;
+}
+.table-hover>tbody>tr:hover {
+    background-color: #2A868F;
+    color: white;
+}
+li.notification_header tr {
+    color: white;
+}
+.navbar-nav > .user-menu > .dropdown-menu > li.notification_header {
+    height: 185px;
+    overflow-y: scroll;
+}
+section#msform.content.cstm-csform {
+margin:inherit!important;
+}
+.details-btn {
+background-color:#3c8dbc!important;
+}
+.edit-btn {
+    background-color: #f0ad4e!important;
+    border: white!important;
+}
