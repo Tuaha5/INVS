@@ -106,15 +106,15 @@
     <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Inv.Context.tt">
+    <Content Include="Inventory.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>Inv.edmx</DependentUpon>
-      <LastGenOutput>Inv.Context.cs</LastGenOutput>
+      <DependentUpon>Inventory.edmx</DependentUpon>
+      <LastGenOutput>Inventory.Context.cs</LastGenOutput>
     </Content>
-    <Content Include="Inv.tt">
+    <Content Include="Inventory.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>Inv.edmx</DependentUpon>
-      <LastGenOutput>Inv.cs</LastGenOutput>
+      <DependentUpon>Inventory.edmx</DependentUpon>
+      <LastGenOutput>Inventory.cs</LastGenOutput>
     </Content>
     <Content Include="Login.aspx" />
     <Content Include="packages.config" />
@@ -138,12 +138,12 @@
     <Content Include="scripts\jquery-3.1.0.min.map" />
     <Content Include="scripts\jquery-3.1.0.slim.min.map" />
     <Content Include="scripts\version.json" />
-    <EntityDeploy Include="Inv.edmx">
+    <EntityDeploy Include="Inventory.edmx">
       <Generator>EntityModelCodeGenerator</Generator>
-      <LastGenOutput>Inv.Designer.cs</LastGenOutput>
+      <LastGenOutput>Inventory.Designer.cs</LastGenOutput>
     </EntityDeploy>
-    <Content Include="Inv.edmx.diagram">
-      <DependentUpon>Inv.edmx</DependentUpon>
+    <Content Include="Inventory.edmx.diagram">
+      <DependentUpon>Inventory.edmx</DependentUpon>
     </Content>
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -3896,13 +3896,32 @@
     <Content Include="scripts\vectormap-utils\dx.vectormaputils.debug.js" />
     <Content Include="scripts\vectormap-utils\dx.vectormaputils.js" />
     <Content Include="scripts\vectormap-utils\dx.vectormaputils.node.js" />
+    <Content Include="userform.aspx" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Code\Bal\Login_BAL.cs" />
+    <Compile Include="App_Code\Bal\User_BAL.cs" />
     <Compile Include="App_Code\Common\Authenticate.cs" />
+    <Compile Include="App_Code\Common\ProcedureCall.cs" />
+    <Compile Include="App_Code\Dal\User_DLL.cs" />
+    <Compile Include="Inventory.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Inventory.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Inventory.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Inventory.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Inventory.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Inventory.edmx</DependentUpon>
+    </Compile>
     <Compile Include="Login.aspx.cs">
       <DependentUpon>Login.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -3913,15 +3932,17 @@
     <Compile Include="PapuClass.cs" />
     <Compile Include="App_Code\Dal\Login_Dal.cs" />
     <Compile Include="App_Code\Common\VT_Common.cs" />
-    <Content Include="App_Code\Common\MsgBox.cs" />
-    <Compile Include="Inv.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Inv.tt</DependentUpon>
-    </Compile>
     <Compile Include="User.cs">
-      <DependentUpon>Inv.tt</DependentUpon>
+      <DependentUpon>Inventory.tt</DependentUpon>
     </Compile>
+    <Compile Include="userform.aspx.cs">
+      <DependentUpon>userform.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="userform.aspx.designer.cs">
+      <DependentUpon>userform.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App_Code\Common\MsgBox.cs" />
     <Compile Include="App_Code\Common\SQLHelper.cs" />
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
@@ -3932,16 +3953,6 @@
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
-    </Compile>
-    <Compile Include="Inv.Context.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Inv.Context.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Inv.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Inv.edmx</DependentUpon>
     </Compile>
     <Compile Include="NewMaster.Master.cs">
       <DependentUpon>NewMaster.Master</DependentUpon>
@@ -3955,6 +3966,7 @@
   <ItemGroup>
     <Folder Include="App\" />
     <Folder Include="App_Data\" />
+    <Folder Include="Common\" />
     <Folder Include="Models\" />
     <Folder Include="scripts\vectormap-data\" />
   </ItemGroup>

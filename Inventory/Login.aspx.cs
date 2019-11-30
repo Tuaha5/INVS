@@ -25,11 +25,11 @@ namespace Inventory
                 string password = txtPassword.Text;
                 if (username != null | password != null)
                 {
-                    User usr = db.Users.Where(x => x.Name == username && x.Password == password).FirstOrDefault();
+                    User usr = db.Users.Where(x => x.UserName == username && x.Password == password).FirstOrDefault();
                     if (usr != null)
                     {
                         Session["UserID"] = usr.Id;
-                        Session["UserName"] = usr.Name;                        
+                        Session["UserName"] = usr.UserName;                        
 
                         Response.Redirect("Default.aspx");
                     }

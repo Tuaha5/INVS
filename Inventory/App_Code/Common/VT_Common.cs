@@ -49,7 +49,10 @@ namespace Viftech
                 return myCon;
             }
         }
-
+        public static void ReloadJS(Page page, string Function)
+        {
+            ScriptManager.RegisterStartupScript(page, typeof(string), Guid.NewGuid().ToString(), Function, true);
+        }
         public static string PayRollConnectionString
         {
             get
